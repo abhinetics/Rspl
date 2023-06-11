@@ -156,8 +156,10 @@ input{
     border: none;
     padding: 0.5rem;
     border-radius: 7px;
-    z-index: 0;
-    
+    /* z-index: 0; */
+    /* text color black  */
+    color: black !important;
+
 }
 
 input:focus{
