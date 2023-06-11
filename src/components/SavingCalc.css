@@ -1,0 +1,50 @@
+.savings-calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+
+  }
+  
+  label {
+    margin-bottom: 10px;
+    font-weight: bold;
+    /* left */
+    text-align: left;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid black;
+
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* media query for mobile devices  */
+@media only screen and (max-width: 600px) {
+  /* center  savings-calculator */
+  .savings-calculator {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 20rem;
+    color: black;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+}
+  
